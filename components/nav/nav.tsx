@@ -22,7 +22,7 @@ const Nav = () => {
   ];
 
   return (
-    <nav className='flex items-center justify-between pr-10 pl-8 py-4 fixed w-full top-0 '>
+    <nav className='flex items-center justify-between pr-10 pl-8 py-1 fixed w-full top-0 bg-black bg-opacity-80 z-50 '>
       <a href='#'>
         <Image
           src='/assets/nav-logo.png'
