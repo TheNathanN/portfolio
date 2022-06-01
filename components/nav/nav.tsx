@@ -22,8 +22,8 @@ const Nav = () => {
   ];
 
   return (
-    <nav className='pr-10 pl-8 py-1 fixed w-full top-0 bg-darkBlue bg-opacity-80 z-50 '>
-      <div className='max-w-7xl flex items-center justify-between text-white '>
+    <nav className='flex justify-center pr-10 pl-8 py-1 fixed w-full top-0 bg-darkBlue bg-opacity-80 z-50 '>
+      <div className='max-w-7xl w-full flex items-center justify-between text-white '>
         <a href='#hero'>
           <Image
             src='/assets/nav-logo.png'

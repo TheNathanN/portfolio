@@ -13,7 +13,7 @@ const Tech = () => {
         <ShadowSVG />
       </div>
 
-      <div className='flex relative top-32 px-16 '>
+      <div className='flex relative top-48 px-16 '>
         <div className='z-10 w-7/12 '>
           <div className='w-[35em] '>
             <LaptopSVG />

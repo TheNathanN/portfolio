@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 import { listItem } from '../../types';
 
@@ -41,7 +42,7 @@ const TechList = () => {
   return (
     <>
       <h2 className='font-bold text-5xl mb-8 '>Technologies</h2>
-      <div>
+      <div className='flex'>
         <ul>
           {listItems.map(item => (
             <li key={item.id} className='text-2xl mb-2 font-thin '>
@@ -49,6 +50,18 @@ const TechList = () => {
             </li>
           ))}
         </ul>
+
+        <div className='flex flex-col ml-16 items-center '>
+          <div className='my-8'>
+            <Image src='/assets/javascript-logo.png' height={60} width={60} />
+          </div>
+          <div className='mb-8'>
+            <Image src='/assets/react-logo.png' height={60} width={60} />
+          </div>
+          <div>
+            <Image src='/assets/next-logo.png' height={70} width={100} />
+          </div>
+        </div>
       </div>
     </>
   );
