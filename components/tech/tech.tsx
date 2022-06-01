@@ -1,8 +1,8 @@
 import React from 'react';
 import { listItem } from '../../types';
-import LaptopSVG from '../svg-components/laptop';
+import LaptopSVG from '../svg/laptop';
 
-import ShadowSVG from '../svg-components/shadow';
+import ShadowSVG from '../svg/shadow';
 import TechList from './tech-list';
 import TechSVG from './tech-svg';
 

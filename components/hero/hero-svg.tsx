@@ -1,11 +1,11 @@
 import React from 'react';
-import BlueScreenSVG from '../svg-components/screen/blue-screen';
-import BottomBtnSVG from '../svg-components/screen/bottom-btn';
-import MainScreenSVG from '../svg-components/screen/main-screen';
-import MiddleBtnSVG from '../svg-components/screen/middle-btn';
-import TopBtnSVG from '../svg-components/screen/top-btn';
-import SittingBodySVG from '../svg-components/sitting-human/sitting-body';
-import SittingHeadSVG from '../svg-components/sitting-human/sitting-head';
+import BlueScreenSVG from '../svg/screen/blue-screen';
+import BottomBtnSVG from '../svg/screen/bottom-btn';
+import MainScreenSVG from '../svg/screen/main-screen';
+import MiddleBtnSVG from '../svg/screen/middle-btn';
+import TopBtnSVG from '../svg/screen/top-btn';
+import SittingBodySVG from '../svg/sitting-human/sitting-body';
+import SittingHeadSVG from '../svg/sitting-human/sitting-head';
 
 const HeroSVG = () => {
   return (

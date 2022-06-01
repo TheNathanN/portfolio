@@ -1,12 +1,12 @@
 import React from 'react';
-import FloorSVG from '../svg-components/floor';
+import FloorSVG from '../svg/floor';
 
 import HeroSVG from './hero-svg';
 
 const Hero = () => {
   return (
     <>
-      <div className='w-1/2 pr-12 flex flex-col top-52 relative '>
+      <div className='w-1/2 pr-12 flex flex-col mt-52 '>
         <h1 className='font-bold text-7xl mb-9 '>
           Nathan
           <br /> Nicholson

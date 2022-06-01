@@ -1,8 +1,8 @@
 import React from 'react';
-import StairsSVG from '../svg-components/stairs';
-import BackLegSVG from '../svg-components/standing-human/back-leg';
-import FrontLegSVG from '../svg-components/standing-human/front-leg';
-import StandingBodySVG from '../svg-components/standing-human/standing-body';
+import StairsSVG from '../svg/stairs';
+import BackLegSVG from '../svg/standing-human/back-leg';
+import FrontLegSVG from '../svg/standing-human/front-leg';
+import StandingBodySVG from '../svg/standing-human/standing-body';
 
 const TechSVG = () => {
   return (

@@ -27,6 +27,10 @@ const TechList = () => {
     },
     {
       id: Math.random(),
+      label: 'Redux',
+    },
+    {
+      id: Math.random(),
       label: 'Next JS',
     },
     {
@@ -52,14 +56,16 @@ const TechList = () => {
         </ul>
 
         <div className='flex flex-col ml-16 items-center '>
-          <div className='my-8'>
+          <div className='mb-8 mt-11'>
             <Image src='/assets/javascript-logo.png' height={60} width={60} />
           </div>
+
           <div className='mb-8'>
-            <Image src='/assets/react-logo.png' height={60} width={60} />
+            <Image src='/assets/react-logo.png' height={60} width={65} />
           </div>
+
           <div>
-            <Image src='/assets/next-logo.png' height={70} width={100} />
+            <Image src='/assets/next-logo.png' height={70} width={70} />
           </div>
         </div>
       </div>
