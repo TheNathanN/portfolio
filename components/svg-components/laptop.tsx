@@ -3,8 +3,7 @@ import React from 'react';
 const LaptopSVG = () => {
   return (
     <svg
-      width='666'
-      height='392'
+      width='100%'
       viewBox='0 0 666 392'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

@@ -3,8 +3,7 @@ import React from 'react';
 const BackLegSVG = () => {
   return (
     <svg
-      width='155'
-      height='253'
+      width='100%'
       viewBox='0 0 155 253'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

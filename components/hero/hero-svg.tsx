@@ -9,35 +9,35 @@ import SittingHeadSVG from '../svg-components/sitting-human/sitting-head';
 
 const HeroSVG = () => {
   return (
-    <div>
-      <div className='absolute bottom-[25em] right-[35em] '>
+    <>
+      <div className='absolute bottom-[25em] right-[32.5em] w-[2em] '>
         <TopBtnSVG />
       </div>
 
-      <div className='absolute bottom-[20em] right-[35em] '>
+      <div className='absolute bottom-[20em] right-[32.5em] w-[2em] '>
         <MiddleBtnSVG />
       </div>
 
-      <div className='absolute bottom-[15em] right-[35em] '>
+      <div className='absolute bottom-[15em] right-[32.5em] w-[2em] '>
         <BottomBtnSVG />
       </div>
 
-      <div className='absolute bottom-[10em] right-[9.8em] '>
+      <div className='absolute bottom-[11em] right-[9.2em] w-[22.5em] '>
         <MainScreenSVG />
       </div>
 
-      <div className='absolute bottom-[17.3em] right-[16em] '>
+      <div className='absolute bottom-[18em] right-[15.5em] w-[8.5em] '>
         <BlueScreenSVG />
       </div>
 
-      <div className='absolute bottom-[20em] right-[6.2em] '>
+      <div className='absolute bottom-[20em] right-[5.9em] w-[3.5em] '>
         <SittingHeadSVG />
       </div>
 
-      <div className='absolute bottom-0 right-[1.5em]  '>
+      <div className='absolute bottom-0 right-[1.2em] w-[16.5em]  '>
         <SittingBodySVG />
       </div>
-    </div>
+    </>
   );
 };
 

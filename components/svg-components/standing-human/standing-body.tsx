@@ -3,8 +3,7 @@ import React from 'react';
 const StandingBodySVG = () => {
   return (
     <svg
-      width='299'
-      height='349'
+      width='100%'
       viewBox='0 0 299 349'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

@@ -3,8 +3,7 @@ import React from 'react';
 const FrontLegSVG = () => {
   return (
     <svg
-      width='221'
-      height='228'
+      width='100%'
       viewBox='0 0 221 228'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

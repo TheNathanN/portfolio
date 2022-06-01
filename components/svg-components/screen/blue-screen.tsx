@@ -3,8 +3,7 @@ import React from 'react';
 const BlueScreenSVG = () => {
   return (
     <svg
-      width='155'
-      height='163'
+      width='100%'
       viewBox='0 0 155 163'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

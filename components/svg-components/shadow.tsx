@@ -3,8 +3,7 @@ import React from 'react';
 const ShadowSVG = () => {
   return (
     <svg
-      width='1440'
-      height='634'
+      width='100%'
       viewBox='0 0 1440 634'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
