@@ -1,62 +1,27 @@
 import React from 'react';
 import Image from 'next/image';
 
-import { listItem } from '../../types';
+import { ListItem } from '../../helpers/types';
+import { createListFromArray } from '../../helpers/helperFunctions';
+import { _TechLabels } from '../../helpers/helperVariables';
 
 const TechList = () => {
-  const listItems: listItem[] = [
-    {
-      id: Math.random(),
-      label: 'HTML',
-    },
-    {
-      id: Math.random(),
-      label: 'CSS / SCSS',
-    },
-    {
-      id: Math.random(),
-      label: 'Tailwind CSS',
-    },
-    {
-      id: Math.random(),
-      label: 'Typescript',
-    },
-    {
-      id: Math.random(),
-      label: 'React JS',
-    },
-    {
-      id: Math.random(),
-      label: 'Redux',
-    },
-    {
-      id: Math.random(),
-      label: 'Next JS',
-    },
-    {
-      id: Math.random(),
-      label: 'Node JS',
-    },
-    {
-      id: Math.random(),
-      label: 'MySQL',
-    },
-  ];
+  const listItems: ListItem[] = createListFromArray(_TechLabels);
 
   return (
     <>
-      <h2 className='font-bold text-5xl mb-8 '>Technologies</h2>
+      <h2 className='font-bold text-6xl mb-8'>Technologies</h2>
       <div className='flex'>
         <ul>
           {listItems.map(item => (
-            <li key={item.id} className='text-2xl mb-2 font-thin '>
+            <li key={item.id} className='text-2xl mb-2 font-thin'>
               {item.label}
             </li>
           ))}
         </ul>
 
-        <div className='flex flex-col ml-16 items-center '>
-          <div className='mb-8 mt-11'>
+        <div className='flex flex-col ml-16 items-center'>
+          <div className='mb-8 mt-9'>
             <Image src='/assets/javascript-logo.png' height={60} width={60} />
           </div>
 
