@@ -7,4 +7,6 @@ export interface ListItem {
 export interface ProjectInfo {
   name: string;
   details: ListItem[];
+  liveLink: string;
+  repoLink: string;
 }

@@ -12,9 +12,8 @@ const Hero = () => {
           <br /> Nicholson
         </h1>
         <p className='text-2xl font-light leading-relaxed'>
-          A certified front-end developer, that has an understanding of back-end
-          development, and loves to learn and create enjoyable experiences on
-          the internet!
+          A certified web developer, who has an eye for design, loves to learn,
+          and loves to create enjoyable experiences on the internet!
         </p>
       </div>
 

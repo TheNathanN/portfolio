@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { ListItem } from '../../helpers/types';
 import { createListFromArray } from '../../helpers/helperFunctions';
 import { _TechLabels } from '../../helpers/helperVariables';
+import TechImages from './tech-images';
 
 const TechList = () => {
   const listItems: ListItem[] = createListFromArray(_TechLabels);
@@ -21,17 +22,7 @@ const TechList = () => {
         </ul>
 
         <div className='flex flex-col ml-16 items-center'>
-          <div className='mb-8 mt-9'>
-            <Image src='/assets/javascript-logo.png' height={60} width={60} />
-          </div>
-
-          <div className='mb-8'>
-            <Image src='/assets/react-logo.png' height={60} width={65} />
-          </div>
-
-          <div>
-            <Image src='/assets/next-logo.png' height={70} width={70} />
-          </div>
+          <TechImages />
         </div>
       </div>
     </>

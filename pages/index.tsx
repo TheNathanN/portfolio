@@ -5,6 +5,7 @@ import Hero from '../components/hero/hero';
 import Nav from '../components/nav/nav';
 import Tech from '../components/tech/tech';
 import Portfolio from '../components/portfolio/portfolio';
+import Script from 'next/script';
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +13,11 @@ const Home: NextPage = () => {
       <Head>
         <title>Nathan Nicholson | Dev Portfolio</title>
         <link rel='icon' href='/favicon.png' />
-        <script
-          src='https://kit.fontawesome.com/c4aa491b21.js'
-          crossOrigin='anonymous'
-        ></script>
       </Head>
+      <Script
+        src='https://kit.fontawesome.com/c4aa491b21.js'
+        crossOrigin='anonymous'
+      ></Script>
 
       <Nav />
 

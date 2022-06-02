@@ -6,13 +6,16 @@ interface Props {
 }
 
 const ProjectDetails = ({ projectInfo }: Props) => {
-  const { name, details } = projectInfo;
+  const { name, details, liveLink, repoLink } = projectInfo;
 
   return (
     <>
-      <h3 className='border-b-2 w-fit font-bold text-5xl mb-8 pb-4 cursor-pointer hover:text-lightBlue transition-all duration-75'>
-        {name}
-      </h3>
+      <a href={liveLink} target='_blank'>
+        <h3 className='border-b-2 w-fit font-bold text-5xl mb-8 pb-4 cursor-pointer hover:text-lightBlue transition-all duration-75'>
+          {name}
+        </h3>
+      </a>
+
       <ul className='relative left-7 list-disc text-2xl font-thin'>
         {details.map(info => (
           <li key={info.id} className='mb-2'>
@@ -22,12 +25,20 @@ const ProjectDetails = ({ projectInfo }: Props) => {
       </ul>
 
       <div className='flex mt-8'>
-        <div className='mr-7 text-3xl cursor-pointer hover:text-lightBlue transition-all duration-75'>
+        <a
+          href={liveLink}
+          target='_blank'
+          className='mr-7 text-3xl cursor-pointer hover:text-lightBlue transition-all duration-75'
+        >
           <i className='fa-solid fa-link'></i>
-        </div>
-        <div className='text-4xl cursor-pointer hover:text-lightBlue transition-all duration-75'>
+        </a>
+        <a
+          href={repoLink}
+          target='_blank'
+          className='text-4xl cursor-pointer hover:text-lightBlue transition-all duration-75'
+        >
           <i className='fa-brands fa-github'></i>
-        </div>
+        </a>
       </div>
     </>
   );
