@@ -1,11 +1,21 @@
 import React from 'react';
+import ShadowSVG from '../svg/shadow';
 
 const Contact = () => {
   return (
     <>
-      <h2 className='font-bold text-6xl mt-16 mb-20 text-center'>Contact</h2>
+      <div className='w-full h-full absolute top-0'>
+        <ShadowSVG />
+      </div>
 
-      <form action='' className='flex flex-col w-11/12 max-w-xl text-xl '>
+      <h2 className='font-bold text-6xl mt-16 mb-20 text-center relative'>
+        Contact
+      </h2>
+
+      <form
+        action=''
+        className='relative flex flex-col w-11/12 max-w-xl text-xl '
+      >
         <label htmlFor='name'>Name</label>
         <input
           className='my-4 p-2 rounded-sm text-black outline-none'

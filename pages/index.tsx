@@ -39,13 +39,16 @@ const Home: NextPage = () => {
             <Portfolio />
           </section>
 
-          <section id='contact' className='w-full flex flex-col items-center'>
+          <section
+            id='contact'
+            className='relative w-full flex flex-col items-center'
+          >
             <Contact />
           </section>
         </div>
       </div>
 
-      <footer className='bg-black w-full text-white text-lg  h-56 flex justify-center items-center shadow-[0px_48px_80px_lightBlue] z-20'>
+      <footer className='bg-black w-full text-white text-lg  h-56 flex justify-center items-center'>
         Designed and Programmed by Nathan Nicholson
       </footer>
     </div>

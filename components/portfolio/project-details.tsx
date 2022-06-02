@@ -10,7 +10,7 @@ const ProjectDetails = ({ projectInfo }: Props) => {
 
   return (
     <>
-      <h3 className='border-b-2 w-fit font-bold text-5xl mb-8 pb-4'>{name}</h3>
+      <h3 className='border-b-2 w-fit font-bold text-4xl mb-6 pb-4'>{name}</h3>
 
       <ul className='relative left-7 list-disc text-2xl font-thin'>
         {details.map(info => (
