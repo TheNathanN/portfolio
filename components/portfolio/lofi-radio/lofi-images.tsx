@@ -22,7 +22,7 @@ const LofiImages = () => {
         />
       </div>
 
-      <div className='absolute w-[7em] left-[15em] top-[3em]'>
+      <div className='absolute w-[7em] left-[16em] top-[3em]'>
         <Image
           src='/assets/lofi-pics/lofi-main-mobile.png'
           layout='responsive'
@@ -44,7 +44,7 @@ const LofiImages = () => {
         <Image
           src='/assets/lofi-pics/lofi-player-mobile.png'
           layout='responsive'
-          width='55vw'
+          width='57vw'
           height='100vh'
         />
       </div>

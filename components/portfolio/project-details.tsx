@@ -10,11 +10,7 @@ const ProjectDetails = ({ projectInfo }: Props) => {
 
   return (
     <>
-      <a href={liveLink} target='_blank'>
-        <h3 className='border-b-2 w-fit font-bold text-5xl mb-8 pb-4 cursor-pointer hover:text-lightBlue transition-all duration-75'>
-          {name}
-        </h3>
-      </a>
+      <h3 className='border-b-2 w-fit font-bold text-5xl mb-8 pb-4'>{name}</h3>
 
       <ul className='relative left-7 list-disc text-2xl font-thin'>
         {details.map(info => (
@@ -28,14 +24,14 @@ const ProjectDetails = ({ projectInfo }: Props) => {
         <a
           href={liveLink}
           target='_blank'
-          className='mr-7 text-3xl cursor-pointer hover:text-lightBlue transition-all duration-75'
+          className='mr-7 text-3xl cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in'
         >
           <i className='fa-solid fa-link'></i>
         </a>
         <a
           href={repoLink}
           target='_blank'
-          className='text-4xl cursor-pointer hover:text-lightBlue transition-all duration-75'
+          className='text-4xl cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in'
         >
           <i className='fa-brands fa-github'></i>
         </a>

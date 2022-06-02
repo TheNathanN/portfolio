@@ -26,7 +26,7 @@ const CryptoImages = () => {
         <Image
           src='/assets/crypto-pics/crypto-main-mobile.png'
           layout='responsive'
-          width='51vw'
+          width='53vw'
           height='100vh'
         />
       </div>
@@ -35,7 +35,7 @@ const CryptoImages = () => {
         <Image
           src='/assets/crypto-pics/crypto-chart-mobile.png'
           layout='responsive'
-          width='51vw'
+          width='53vw'
           height='100vh'
         />
       </div>
@@ -44,7 +44,7 @@ const CryptoImages = () => {
         <Image
           src='/assets/crypto-pics/crypto-news-mobile.png'
           layout='responsive'
-          width='51vw'
+          width='53vw'
           height='100vh'
         />
       </div>

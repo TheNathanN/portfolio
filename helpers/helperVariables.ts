@@ -39,6 +39,25 @@ export const _LofiRadioLabels = [
   'HTML / SCSS',
   'Next JS',
   'Context API',
-  'Albums stored in a Javascript File to mimic a Database',
+  'Albums stored in a Javascript file to mimic a Database',
   'Designed and Programmed by Nathan',
+];
+
+export const _PayApiLabels = [
+  'HTML / Tailwind CSS',
+  'Typescript',
+  'React JS',
+  'Redux',
+  'Express JS',
+  'MySQL',
+  'Forms send data to a MySQL Database',
+  'Designed by Frontend Mentor & Programmed by Nathan',
+];
+
+export const _PomodoroLabels = [
+  'HTML / SCSS',
+  'Typescript',
+  'Next JS',
+  'Context API',
+  'Designed by Frontend Mentor & Programmed by Nathan',
 ];

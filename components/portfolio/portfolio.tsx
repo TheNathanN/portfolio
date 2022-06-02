@@ -1,6 +1,8 @@
 import React from 'react';
 import CryptoTracker from './crypto-tracker/crypto-tracker';
 import LofiRadio from './lofi-radio/lofi-radio';
+import PayApi from './pay-api/pay-api';
+import PomodoroTimer from './pomodoro-timer/pomodoro-timer';
 
 const Portfolio = () => {
   return (
@@ -11,8 +13,16 @@ const Portfolio = () => {
         <CryptoTracker />
       </div>
 
-      <div className='flex justify-between mb-56'>
+      <div className='flex justify-between mb-64'>
         <LofiRadio />
+      </div>
+
+      <div className='flex justify-between mb-44'>
+        <PayApi />
+      </div>
+
+      <div className='flex justify-between mb-60'>
+        <PomodoroTimer />
       </div>
     </>
   );

@@ -6,6 +6,7 @@ import Nav from '../components/nav/nav';
 import Tech from '../components/tech/tech';
 import Portfolio from '../components/portfolio/portfolio';
 import Script from 'next/script';
+import Contact from '../components/contact/contact';
 
 const Home: NextPage = () => {
   return (
@@ -37,8 +38,16 @@ const Home: NextPage = () => {
           <section id='portfolio' className='w-full px-16'>
             <Portfolio />
           </section>
+
+          <section id='contact' className='w-full flex flex-col items-center'>
+            <Contact />
+          </section>
         </div>
       </div>
+
+      <footer className='bg-black w-full text-white text-lg  h-56 flex justify-center items-center shadow-[0px_48px_80px_lightBlue] z-20'>
+        Designed and Programmed by Nathan Nicholson
+      </footer>
     </div>
   );
 };
