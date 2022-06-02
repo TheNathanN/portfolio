@@ -10,15 +10,15 @@ import SittingHeadSVG from '../svg/sitting-human/sitting-head';
 const HeroSVG = () => {
   return (
     <>
-      <div className='absolute bottom-[34em] right-[33] w-[2em] '>
+      <div className='absolute bottom-[34em] right-[34em] w-[2em] '>
         <TopBtnSVG />
       </div>
 
-      <div className='absolute bottom-[29em] right-[33] w-[2em] '>
+      <div className='absolute bottom-[29em] right-[34em] w-[2em] '>
         <MiddleBtnSVG />
       </div>
 
-      <div className='absolute bottom-[24em] right-[33] w-[2em] '>
+      <div className='absolute bottom-[24em] right-[34em] w-[2em] '>
         <BottomBtnSVG />
       </div>
 

@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-
 import { ListItem } from '../../helpers/types';
 import { createListFromArray } from '../../helpers/helperFunctions';
 import { _TechLabels } from '../../helpers/helperVariables';

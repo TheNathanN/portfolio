@@ -9,7 +9,7 @@ const StairsSVG = () => {
       xmlns='http://www.w3.org/2000/svg'
     >
       <path
-        d='M263.634 1.90735e-05 H1440 V51.89 H263.634 V1.90735 e-05Z'
+        d='M263.634 1.90735e-05 H1440 V51.89 H263.634 V1.90735e-05Z'
         fill='url(#paint0_linear_327_12)'
       />
       <path

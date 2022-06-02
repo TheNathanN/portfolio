@@ -4,12 +4,12 @@ import Image from 'next/image';
 const TechImages = () => {
   return (
     <>
-      <div className='mb-8 mt-9'>
+      <div className='mb-8 mt-8'>
         <Image
-          src='/assets/javascript-logo.png'
+          src='/assets/typescript-logo.png'
           height={60}
           width={60}
-          alt='Javascript'
+          alt='Typescript'
         />
       </div>
 
