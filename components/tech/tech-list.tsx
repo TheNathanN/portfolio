@@ -9,11 +9,17 @@ const TechList = () => {
 
   return (
     <>
-      <h2 className='font-bold text-6xl mb-8'>Technologies</h2>
+      <h2 className='font-bold text-5xl mb-7 lg:text-6xl lg:mb-8'>
+        Technologies
+      </h2>
+
       <div className='flex'>
         <ul>
           {listItems.map(item => (
-            <li key={item.id} className='text-2xl mb-2 font-thin'>
+            <li
+              key={item.id}
+              className='font-thin text-xl mb-1 lg:text-2xl lg:mb-2'
+            >
               {item.label}
             </li>
           ))}

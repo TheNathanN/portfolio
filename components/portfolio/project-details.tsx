@@ -10,22 +10,26 @@ const ProjectDetails = ({ projectInfo }: Props) => {
 
   return (
     <>
-      <h3 className='border-b-2 w-fit font-bold text-4xl mb-6 pb-4'>{name}</h3>
+      <a href={liveLink} target='_blank' rel='noreferrer'>
+        <h3 className='border-b-2 w-fit font-bold cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in text-[2em] mb-4 pb-2 lg:text-[2.8em] lg:mb-8'>
+          {name}
+        </h3>
+      </a>
 
-      <ul className='relative left-7 list-disc text-2xl font-thin'>
+      <ul className='list-disc font-thin text-xl pl-7 lg:text-2xl lg:pl-8'>
         {details.map(info => (
-          <li key={info.id} className='mb-2'>
+          <li key={info.id} className='mb-1 lg:mb-2'>
             {info.label}
           </li>
         ))}
       </ul>
 
-      <div className='flex mt-8'>
+      <div className='flex mt-5 lg:mt-9'>
         <a
           href={liveLink}
           target='_blank'
           rel='noreferrer'
-          className='mr-7 text-3xl cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in'
+          className='cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in mr-7 text-2xl lg:text-3xl'
         >
           <i className='fa-solid fa-link'></i>
         </a>
@@ -33,7 +37,7 @@ const ProjectDetails = ({ projectInfo }: Props) => {
           href={repoLink}
           target='_blank'
           rel='noreferrer'
-          className='text-4xl cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in'
+          className='cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in text-3xl lg:text-4xl'
         >
           <i className='fa-brands fa-github'></i>
         </a>

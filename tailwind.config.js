@@ -14,6 +14,9 @@ module.exports = {
     fontFamily: {
       sans: ['Oswald', 'sans-serif'],
     },
+    screens: {
+      lg: '1000px',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial':

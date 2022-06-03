@@ -8,13 +8,13 @@ const Contact = () => {
         <ShadowSVG />
       </div>
 
-      <h2 className='font-bold text-6xl mt-16 mb-20 text-center relative'>
+      <h2 className='font-bold text-center relative text-5xl mt-16 mb-11 lg:text-6xl lg:mb-20'>
         Contact
       </h2>
 
       <form
         action=''
-        className='relative flex flex-col w-11/12 max-w-xl text-xl '
+        className='relative flex flex-col w-11/12 max-w-xl text-base lg:text-xl '
       >
         <label htmlFor='name'>Name</label>
         <input

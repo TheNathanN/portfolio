@@ -4,30 +4,33 @@ import Image from 'next/image';
 const TechImages = () => {
   return (
     <>
-      <div className='mb-8 mt-8'>
+      <div className='relative w-[50px] h-[50px] mb-7 mt-6 lg:w-[60px] lg:h-[60px] lg:my-8'>
         <Image
           src='/assets/typescript-logo.png'
-          height={60}
-          width={60}
+          layout='fill'
+          objectFit='contain'
           alt='Typescript'
+          priority
         />
       </div>
 
-      <div className='mb-8'>
+      <div className='relative w-[55px] h-[50px] mb-7 lg:w-[65px] lg:h-[60px] lg:mb-8'>
         <Image
           src='/assets/react-logo.png'
-          height={60}
-          width={65}
+          layout='fill'
+          objectFit='contain'
           alt='React JS'
+          priority
         />
       </div>
 
-      <div>
+      <div className='relative w-[60px] h-[60px] lg:w-[70px] lg:h-[70px]'>
         <Image
           src='/assets/next-logo.png'
-          height={70}
-          width={70}
+          layout='fill'
+          objectFit='contain'
           alt='Next JS'
+          priority
         />
       </div>
     </>

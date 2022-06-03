@@ -26,19 +26,19 @@ const Home: NextPage = () => {
         <div className='min-w-screen min-h-screen max-w-7xl w-full flex flex-col items-center justify-center text-white'>
           <header
             id='hero'
-            className='relative flex top-16 justify-start h-[50em] w-full'
+            className='relative flex justify-start w-full h-[35em] lg:top-16 lg:h-[50em]'
           >
             <Hero />
           </header>
 
           <section
             id='tech'
-            className='relative h-[55em] w-full flex justify-end'
+            className='relative w-full flex justify-end h-[40em] lg:h-[55em]'
           >
             <Tech />
           </section>
 
-          <section id='portfolio' className='w-full px-16'>
+          <section id='portfolio' className='w-full px-12 lg:px-16'>
             <Portfolio />
           </section>
 
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <footer className='bg-black w-full text-white text-lg  h-56 flex justify-center items-center'>
+      <footer className='bg-black w-full text-white text-lg flex justify-center items-center h-56'>
         Designed and Programmed by Nathan Nicholson
       </footer>
     </div>

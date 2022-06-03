@@ -37,7 +37,7 @@ const LofiImages = () => {
         />
       </div>
 
-      <div className='absolute w-[68%] left-0 top-[80%]'>
+      <div className='absolute w-[68%] left-0 top-[75%]'>
         <Image
           src='/assets/lofi-pics/lofi-player-desktop.png'
           layout='responsive'

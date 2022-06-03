@@ -4,12 +4,12 @@ import ManSitting from '../svg/man-sitting';
 const Hero = () => {
   return (
     <>
-      <div className='w-5/12 pr-12 flex flex-col mt-52 ml-16'>
-        <h1 className='font-bold text-7xl mb-9'>
+      <div className='pr-12 flex flex-col w-[47%] mt-36 ml-16 lg:w-5/12 lg:mt-52'>
+        <h1 className='font-bold text-6xl mb-5 lg:text-7xl lg:mb-9'>
           Nathan
           <br /> Nicholson
         </h1>
-        <p className='text-2xl font-light leading-relaxed'>
+        <p className='font-light leading-relaxed text-xl lg:text-2xl'>
           A certified web developer, who has an eye for design, loves to learn,
           and loves to create enjoyable experiences on the internet!
         </p>
