@@ -1,9 +1,7 @@
 import React from 'react';
-import LaptopSVG from '../svg/laptop';
-
 import ShadowSVG from '../svg/shadow';
+import TechSVG from '../svg/tech-svg';
 import TechList from './tech-list';
-import TechSVG from './tech-svg';
 
 const Tech = () => {
   return (
@@ -12,19 +10,15 @@ const Tech = () => {
         <ShadowSVG />
       </div>
 
-      <div className='flex relative top-48 px-16'>
-        <div className='z-10 w-7/12'>
-          <div className='w-[35em]'>
-            <LaptopSVG />
-          </div>
-        </div>
-
-        <div className='z-10 w-5/12'>
+      <div>
+        <div className='relative w-full h-full flex flex-col justify-center mr-40'>
           <TechList />
         </div>
       </div>
 
-      <TechSVG />
+      <div className='flex absolute w-full bottom-0'>
+        <TechSVG />
+      </div>
     </>
   );
 };

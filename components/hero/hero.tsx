@@ -1,12 +1,10 @@
 import React from 'react';
-import FloorSVG from '../svg/floor';
-
-import HeroSVG from './hero-svg';
+import ManSitting from '../svg/man-sitting';
 
 const Hero = () => {
   return (
     <>
-      <div className='w-1/2 pr-12 flex flex-col mt-52'>
+      <div className='w-5/12 pr-12 flex flex-col mt-52 ml-16'>
         <h1 className='font-bold text-7xl mb-9'>
           Nathan
           <br /> Nicholson
@@ -17,12 +15,8 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className='w-1/2 relative h-full'>
-        <HeroSVG />
-      </div>
-
       <div className='w-full absolute bottom-0 max-w-7xl'>
-        <FloorSVG />
+        <ManSitting />
       </div>
     </>
   );

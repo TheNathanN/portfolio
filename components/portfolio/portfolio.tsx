@@ -7,7 +7,7 @@ import PomodoroTimer from './pomodoro-timer/pomodoro-timer';
 const Portfolio = () => {
   return (
     <>
-      <h2 className='font-bold text-6xl mt-40 mb-28 text-center'>Portfolio</h2>
+      <h2 className='font-bold text-6xl mt-28 mb-32 text-center'>Portfolio</h2>
 
       <div className='flex justify-between mb-36'>
         <CryptoTracker />

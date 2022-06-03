@@ -23,15 +23,18 @@ const Home: NextPage = () => {
       <Nav />
 
       <div className='min-w-screen min-h-screen bg-gradient-radial from-black to-blue flex justify-center'>
-        <div className='min-w-screen min-h-screen max-w-7xl w-full flex flex-col items-center justify-center font-sans text-white'>
+        <div className='min-w-screen min-h-screen max-w-7xl w-full flex flex-col items-center justify-center text-white'>
           <header
             id='hero'
-            className='relative flex top-16 px-16 justify-center h-[55em] w-full'
+            className='relative flex top-16 justify-start h-[50em] w-full'
           >
             <Hero />
           </header>
 
-          <section id='tech' className='relative h-[55em] w-full'>
+          <section
+            id='tech'
+            className='relative h-[55em] w-full flex justify-end'
+          >
             <Tech />
           </section>
 

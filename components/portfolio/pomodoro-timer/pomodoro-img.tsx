@@ -4,7 +4,7 @@ import React from 'react';
 const PomodoroImages = () => {
   return (
     <>
-      <div className='absolute w-[18em] left-[0em] top-[0em]'>
+      <div className='absolute w-[60%] left-0 top-0'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-menu-desktop.png'
           layout='responsive'
@@ -13,7 +13,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[18em] left-[8em] top-[3em]'>
+      <div className='absolute w-[60%] left-[25%] top-[12%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-main-desktop.png'
           layout='responsive'
@@ -22,7 +22,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[7em] left-[3em] top-[17em]'>
+      <div className='absolute w-[23%] left-[10%] top-[78%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-main-mobile.png'
           layout='responsive'
@@ -31,7 +31,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[7em] left-[14em] top-[17em]'>
+      <div className='absolute w-[23%] left-[50%] top-[78%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-menu-mobile.png'
           layout='responsive'
