@@ -11,6 +11,7 @@ const CryptoImages = () => {
           width='100vw'
           height='60vh'
           priority
+          alt='crypto tracker chart for desktop'
         />
       </div>
 
@@ -21,6 +22,7 @@ const CryptoImages = () => {
           width='100vw'
           height='60vh'
           priority
+          alt='crypto tracker main page for desktop'
         />
       </div>
 
@@ -31,6 +33,7 @@ const CryptoImages = () => {
           width='53vw'
           height='100vh'
           priority
+          alt='crypto tracker main page for mobile'
         />
       </div>
 
@@ -41,6 +44,7 @@ const CryptoImages = () => {
           width='53vw'
           height='100vh'
           priority
+          alt='crypto tracker chart for mobile'
         />
       </div>
 
@@ -51,6 +55,7 @@ const CryptoImages = () => {
           width='53vw'
           height='100vh'
           priority
+          alt='crypto tracker news page for mobile'
         />
       </div>
     </>

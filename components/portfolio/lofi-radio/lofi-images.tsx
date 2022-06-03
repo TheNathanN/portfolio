@@ -11,6 +11,7 @@ const LofiImages = () => {
           width='100vw'
           height='70vh'
           priority
+          alt='lofi radio main page for desktop'
         />
       </div>
 
@@ -21,6 +22,7 @@ const LofiImages = () => {
           width='67vw'
           height='73vh'
           priority
+          alt='lofi radio main page for tablet'
         />
       </div>
 
@@ -31,6 +33,7 @@ const LofiImages = () => {
           width='55vw'
           height='100vh'
           priority
+          alt='lofi radio main page for mobile'
         />
       </div>
 
@@ -41,6 +44,7 @@ const LofiImages = () => {
           width='100vw'
           height='60vh'
           priority
+          alt='lofi radio player for desktop'
         />
       </div>
 
@@ -51,6 +55,7 @@ const LofiImages = () => {
           width='57vw'
           height='100vh'
           priority
+          alt='lofi radio player for mobile'
         />
       </div>
     </>

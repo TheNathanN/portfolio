@@ -16,6 +16,7 @@ const Nav = () => {
             width={50}
             height={50}
             className='cursor-pointer'
+            alt='Nathan Nicholson logo'
           />
         </a>
         <ul className='flex'>

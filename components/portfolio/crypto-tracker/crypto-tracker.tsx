@@ -22,6 +22,7 @@ const CryptoTracker = () => {
       <a
         href={cryptoTrackerInfo.liveLink}
         target='_blank'
+        rel='noreferrer'
         className='w-1/2 relative cursor-pointer'
       >
         <CryptoImages />

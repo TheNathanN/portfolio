@@ -11,6 +11,7 @@ const PayImages = () => {
           width='100vw'
           height='62vh'
           priority
+          alt='pay api form page for desktop'
         />
       </div>
 
@@ -21,6 +22,7 @@ const PayImages = () => {
           width='100vw'
           height='62vh'
           priority
+          alt='pay api main page for desktop'
         />
       </div>
 
@@ -31,6 +33,7 @@ const PayImages = () => {
           width='55vw'
           height='100vh'
           priority
+          alt='pay api nav page for mobile'
         />
       </div>
 
@@ -41,6 +44,7 @@ const PayImages = () => {
           width='55vw'
           height='100vh'
           priority
+          alt='pay api plans page for mobile'
         />
       </div>
 
@@ -51,6 +55,7 @@ const PayImages = () => {
           width='55vw'
           height='100vh'
           priority
+          alt='pay api main page for mobile'
         />
       </div>
     </>

@@ -18,6 +18,7 @@ const LofiRadio = () => {
       <a
         href={lofiRadioInfo.liveLink}
         target='_blank'
+        rel='noreferrer'
         className='w-5/12 relative cursor-pointer'
       >
         <LofiImages />

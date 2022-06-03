@@ -24,6 +24,7 @@ const ProjectDetails = ({ projectInfo }: Props) => {
         <a
           href={liveLink}
           target='_blank'
+          rel='noreferrer'
           className='mr-7 text-3xl cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in'
         >
           <i className='fa-solid fa-link'></i>
@@ -31,6 +32,7 @@ const ProjectDetails = ({ projectInfo }: Props) => {
         <a
           href={repoLink}
           target='_blank'
+          rel='noreferrer'
           className='text-4xl cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in'
         >
           <i className='fa-brands fa-github'></i>

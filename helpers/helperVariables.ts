@@ -51,7 +51,7 @@ export const _PayApiLabels = [
   'Express JS',
   'MySQL',
   'Forms send data to a MySQL Database',
-  'Programmed by Nathan / Designed by Frontend Mentor',
+  'Programmed by Nathan | Designed by Frontend Mentor',
 ];
 
 export const _PomodoroLabels = [
@@ -59,5 +59,5 @@ export const _PomodoroLabels = [
   'Typescript',
   'Next JS',
   'Context API',
-  'Programmed by Nathan / Designed by Frontend Mentor',
+  'Programmed by Nathan | Designed by Frontend Mentor',
 ];

@@ -10,6 +10,7 @@ const PomodoroImages = () => {
           layout='responsive'
           width='90vw'
           height='70vh'
+          alt='pomodoro menu for desktop'
         />
       </div>
 
@@ -19,6 +20,7 @@ const PomodoroImages = () => {
           layout='responsive'
           width='100vw'
           height='70vh'
+          alt='pomodoro main page for desktop'
         />
       </div>
 
@@ -28,6 +30,7 @@ const PomodoroImages = () => {
           layout='responsive'
           width='46vw'
           height='95vh'
+          alt='pomodoro main page for mobile'
         />
       </div>
 
@@ -37,6 +40,7 @@ const PomodoroImages = () => {
           layout='responsive'
           width='46vw'
           height='95vh'
+          alt='pomodoro menu for mobile'
         />
       </div>
     </>
