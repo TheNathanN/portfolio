@@ -26,14 +26,14 @@ const Home: NextPage = () => {
         <div className='min-w-screen min-h-screen max-w-7xl w-full flex flex-col items-center justify-center text-white'>
           <header
             id='hero'
-            className='relative flex justify-start w-full h-[38em] lg:top-16 lg:h-[50em]'
+            className='relative flex justify-start w-full h-[50em] lg:top-16 lg:h-[55em]'
           >
             <Hero />
           </header>
 
           <section
             id='tech'
-            className='relative w-full justify-center flex h-[40em] md:justify-end lg:h-[55em]'
+            className='relative w-full justify-center flex h-[50em] md:justify-end lg:h-[55em]'
           >
             <Tech />
           </section>

@@ -17,6 +17,7 @@ export const _TechLabels = [
   'HTML',
   'CSS / SCSS',
   'Tailwind CSS',
+  'Framer Motion',
   'Typescript',
   'React / Redux',
   'Next JS',

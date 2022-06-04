@@ -7,7 +7,7 @@ import PomodoroTimer from './pomodoro-timer/pomodoro-timer';
 const Portfolio = () => {
   return (
     <>
-      <h2 className='font-bold text-5xl mt-28 mb-14 lg:text-6xl lg:mt-28 lg:mb-32 text-center'>
+      <h2 className='font-bold text-5xl mt-32 mb-28 lg:text-6xl lg:mt-28 lg:mb-32 text-center'>
         Portfolio
       </h2>
 

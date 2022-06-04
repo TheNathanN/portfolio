@@ -13,7 +13,7 @@ const TechList = () => {
         Technologies
       </h2>
 
-      <div className='flex pl-3'>
+      <div className='relative z-10 flex pl-2'>
         <ul>
           {listItems.map(item => (
             <li
