@@ -26,7 +26,7 @@ const PayImages = () => {
         />
       </div>
 
-      <div className='w-[25%] absolute top-[62%] left-[5%]'>
+      <div className='w-[25%] absolute top-[58%] left-[5%]'>
         <Image
           src='/assets/pay-pics/pay-mobile-nav.png'
           layout='responsive'
@@ -37,7 +37,7 @@ const PayImages = () => {
         />
       </div>
 
-      <div className='w-[25%] absolute top-[62%] left-[38%]'>
+      <div className='w-[25%] absolute top-[58%] left-[38%]'>
         <Image
           src='/assets/pay-pics/pay-mobile-plan.png'
           layout='responsive'
@@ -48,7 +48,7 @@ const PayImages = () => {
         />
       </div>
 
-      <div className='w-[25%] absolute top-[62%] left-[72%]'>
+      <div className='w-[25%] absolute top-[58%] left-[72%]'>
         <Image
           src='/assets/pay-pics/pay-mobile-main.png'
           layout='responsive'

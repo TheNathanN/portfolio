@@ -10,8 +10,13 @@ const ProjectDetails = ({ projectInfo }: Props) => {
 
   return (
     <>
-      <a href={liveLink} target='_blank' rel='noreferrer'>
-        <h3 className='border-b-2 w-fit font-bold cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in text-[2em] mb-4 pb-2 lg:text-[2.8em] lg:mb-8'>
+      <a
+        className='w-full text-center md:fit'
+        href={liveLink}
+        target='_blank'
+        rel='noreferrer'
+      >
+        <h3 className='border-b-2 font-bold cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in text-[2em] mb-4 pb-2 w-full md:w-fit lg:text-[2.8em] lg:mb-8'>
           {name}
         </h3>
       </a>

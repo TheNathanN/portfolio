@@ -4,7 +4,7 @@ import ManSitting from '../svg/man-sitting';
 const Hero = () => {
   return (
     <>
-      <div className='pr-12 flex flex-col w-[47%] mt-36 ml-16 lg:w-5/12 lg:mt-52'>
+      <div className='pr-12 flex flex-col ml-4 mt-32 md:w-[47%] md:mt-40 md:ml-16 lg:w-5/12 lg:mt-52'>
         <h1 className='font-bold text-6xl mb-5 lg:text-7xl lg:mb-9'>
           Nathan
           <br /> Nicholson

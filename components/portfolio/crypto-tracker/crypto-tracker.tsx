@@ -15,7 +15,7 @@ const CryptoTracker = () => {
 
   return (
     <>
-      <div className='w-1/2'>
+      <div className='w-full flex flex-col items-center md:block md:w-1/2'>
         <ProjectDetails projectInfo={cryptoTrackerInfo} />
       </div>
 
@@ -23,7 +23,7 @@ const CryptoTracker = () => {
         href={cryptoTrackerInfo.liveLink}
         target='_blank'
         rel='noreferrer'
-        className='w-1/2 relative cursor-pointer'
+        className='hidden md:block w-full md:w-1/2 relative cursor-pointer'
       >
         <CryptoImages />
       </a>

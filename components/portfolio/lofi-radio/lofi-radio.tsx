@@ -19,12 +19,12 @@ const LofiRadio = () => {
         href={lofiRadioInfo.liveLink}
         target='_blank'
         rel='noreferrer'
-        className='w-5/12 relative cursor-pointer'
+        className='hidden md:block w-5/12 relative cursor-pointer'
       >
         <LofiImages />
       </a>
 
-      <div className='w-5/12'>
+      <div className='w-full flex flex-col items-center md:block md:w-5/12'>
         <ProjectDetails projectInfo={lofiRadioInfo} />
       </div>
     </>

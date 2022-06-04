@@ -24,7 +24,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[23%] left-[10%] top-[78%]'>
+      <div className='absolute w-[23%] left-[10%] top-[72%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-main-mobile.png'
           layout='responsive'
@@ -34,7 +34,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[23%] left-[50%] top-[78%]'>
+      <div className='absolute w-[23%] left-[50%] top-[72%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-menu-mobile.png'
           layout='responsive'

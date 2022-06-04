@@ -11,7 +11,7 @@ const Tech = () => {
       </div>
 
       <div>
-        <div className='relative w-full h-full mt-40 mr-10 lg:mt-60 lg:mr-32'>
+        <div className='relative w-full h-full mt-16 md:block md:mt-40 md:mr-10 lg:mt-60 lg:mr-32'>
           <TechList />
         </div>
       </div>

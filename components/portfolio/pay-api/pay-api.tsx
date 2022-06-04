@@ -15,7 +15,7 @@ const PayApi = () => {
 
   return (
     <>
-      <div className='w-6/12'>
+      <div className='flex flex-col items-center md:block md:w-6/12'>
         <ProjectDetails projectInfo={payApiInfo} />
       </div>
 
@@ -23,7 +23,7 @@ const PayApi = () => {
         href={payApiInfo.liveLink}
         target='_blank'
         rel='noreferrer'
-        className='w-5/12 relative cursor-pointer'
+        className=' hidden md:block w-5/12 relative cursor-pointer'
       >
         <PayImages />
       </a>
