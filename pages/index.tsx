@@ -38,7 +38,10 @@ const Home: NextPage = () => {
             <Tech />
           </section>
 
-          <section id='portfolio' className='w-full px-12 lg:px-16'>
+          <section
+            id='portfolio'
+            className='w-full flex flex-col items-center px-12 md:block lg:px-16'
+          >
             <Portfolio />
           </section>
 

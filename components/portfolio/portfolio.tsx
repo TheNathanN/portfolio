@@ -11,19 +11,19 @@ const Portfolio = () => {
         Portfolio
       </h2>
 
-      <div className='flex flex-col mb-24 md:justify-between md:flex-row lg:mb-36'>
+      <div className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:justify-between md:flex-row lg:mb-36'>
         <CryptoTracker />
       </div>
 
-      <div className='flex flex-col mb-24 md:mb-52 md:justify-between md:flex-row lg:mb-64'>
+      <div className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:mb-52 md:justify-between md:flex-row lg:mb-64'>
         <LofiRadio />
       </div>
 
-      <div className='flex flex-col mb-24 md:mb-32 md:justify-between md:flex-row lg:mb-44'>
+      <div className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:mb-32 md:justify-between md:flex-row lg:mb-44'>
         <PayApi />
       </div>
 
-      <div className='flex flex-col mb-24 md:mb-48 md:justify-between md:flex-row lg:mb-60'>
+      <div className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:mb-48 md:justify-between md:flex-row lg:mb-60'>
         <PomodoroTimer />
       </div>
     </>

@@ -4,7 +4,7 @@ import React from 'react';
 const CryptoImages = () => {
   return (
     <>
-      <div className='w-[60%] absolute top-0 left-[10%]'>
+      <div className='absolute md:w-[60%] md:left-[10%]'>
         <Image
           src='/assets/crypto-pics/crypto-chart-desktop.png'
           layout='responsive'
@@ -15,7 +15,7 @@ const CryptoImages = () => {
         />
       </div>
 
-      <div className='w-[60%] absolute top-[10%] left-[38%]'>
+      <div className='absolute w-[14em] -top-[1.9em] left-[.5em] md:w-[60%] md:top-[10%] md:left-[38%]'>
         <Image
           src='/assets/crypto-pics/crypto-main-desktop.png'
           layout='responsive'
@@ -26,7 +26,7 @@ const CryptoImages = () => {
         />
       </div>
 
-      <div className='w-[17%] absolute top-[60%] left-[15%]'>
+      <div className='absolute md:left-[15%] md:w-[17%] md:top-[60%]'>
         <Image
           src='/assets/crypto-pics/crypto-main-mobile.png'
           layout='responsive'
@@ -37,7 +37,7 @@ const CryptoImages = () => {
         />
       </div>
 
-      <div className='w-[17%] absolute top-[60%] left-[44%]'>
+      <div className='absolute left-[69%] w-[5em] -top-2 md:left-[44%] md:w-[17%] md:top-[60%]'>
         <Image
           src='/assets/crypto-pics/crypto-chart-mobile.png'
           layout='responsive'
@@ -48,7 +48,7 @@ const CryptoImages = () => {
         />
       </div>
 
-      <div className='w-[17%] absolute top-[60%] left-[72%]'>
+      <div className='absolute md:left-[72%] md:w-[17%] md:top-[60%]'>
         <Image
           src='/assets/crypto-pics/crypto-news-mobile.png'
           layout='responsive'

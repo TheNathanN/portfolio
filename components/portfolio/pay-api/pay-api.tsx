@@ -23,7 +23,7 @@ const PayApi = () => {
         href={payApiInfo.liveLink}
         target='_blank'
         rel='noreferrer'
-        className=' hidden md:block w-5/12 relative cursor-pointer'
+        className='w-5/12 md:relative cursor-pointer'
       >
         <PayImages />
       </a>

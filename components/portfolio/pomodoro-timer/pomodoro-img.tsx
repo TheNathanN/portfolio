@@ -4,7 +4,7 @@ import React from 'react';
 const PomodoroImages = () => {
   return (
     <>
-      <div className='absolute w-[60%] left-0 top-0'>
+      <div className='absolute md:w-[60%] left-0 top-0'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-menu-desktop.png'
           layout='responsive'
@@ -14,7 +14,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[60%] left-[25%] top-[12%]'>
+      <div className='absolute w-[15em] -top-[3.5em] -left-[4%] md:w-[60%] md:left-[25%] md:top-[12%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-main-desktop.png'
           layout='responsive'
@@ -24,7 +24,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[23%] left-[10%] top-[72%]'>
+      <div className='absolute md:w-[23%] left-[10%] top-[72%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-main-mobile.png'
           layout='responsive'
@@ -34,7 +34,7 @@ const PomodoroImages = () => {
         />
       </div>
 
-      <div className='absolute w-[23%] left-[50%] top-[72%]'>
+      <div className='absolute left-[70%] w-[5em] -top-[1.5em] md:w-[23%] md:left-[50%] md:top-[72%]'>
         <Image
           src='/assets/pomodoro-pics/pomodoro-menu-mobile.png'
           layout='responsive'

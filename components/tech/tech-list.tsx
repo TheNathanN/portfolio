@@ -13,7 +13,7 @@ const TechList = () => {
         Technologies
       </h2>
 
-      <div className='flex'>
+      <div className='flex pl-3'>
         <ul>
           {listItems.map(item => (
             <li
@@ -25,7 +25,7 @@ const TechList = () => {
           ))}
         </ul>
 
-        <div className='flex flex-col ml-16 items-center'>
+        <div className='flex flex-col ml-20 lg:ml-28 items-center'>
           <TechImages />
         </div>
       </div>
