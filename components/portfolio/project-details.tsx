@@ -16,7 +16,7 @@ const ProjectDetails = ({ projectInfo }: Props) => {
         target='_blank'
         rel='noreferrer'
       >
-        <h3 className='border-b-2 font-bold cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in text-[2em] mb-4 pb-2 w-full md:w-fit lg:text-[2.8em] lg:mb-8'>
+        <h3 className='border-b-2 font-bold cursor-pointer hover:text-lightBlue transition-all duration-100 ease-in text-[2em] mb-8 pb-7 md:mb-4 md:pb-2 w-full md:w-fit lg:text-[2.8em] lg:mb-8'>
           {name}
         </h3>
       </a>

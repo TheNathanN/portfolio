@@ -19,7 +19,7 @@ const PomodoroImages = () => {
           src='/assets/pomodoro-pics/pomodoro-main-desktop.png'
           layout='responsive'
           width='100vw'
-          height='70vh'
+          height='68vh'
           alt='pomodoro main page for desktop'
         />
       </div>

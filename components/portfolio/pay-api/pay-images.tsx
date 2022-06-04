@@ -8,8 +8,8 @@ const PayImages = () => {
         <Image
           src='/assets/pay-pics/pay-desktop-form.png'
           layout='responsive'
-          width='100vw'
-          height='62vh'
+          width='92vw'
+          height='60vh'
           priority
           alt='pay api form page for desktop'
         />
@@ -19,8 +19,8 @@ const PayImages = () => {
         <Image
           src='/assets/pay-pics/pay-desktop-main.png'
           layout='responsive'
-          width='100vw'
-          height='62vh'
+          width='92vw'
+          height='60vh'
           priority
           alt='pay api main page for desktop'
         />
