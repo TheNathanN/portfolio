@@ -19,7 +19,7 @@ const Contact = () => {
         <p className='relative flex flex-col text-center justify-center items-center w-10/12 max-w-xl h-72 mb-16 text-lg md:text-xl lg:mb-36'>
           The form has been submitted successfully.
           <br />
-          I'm looking forward to furthering our communication!
+          I&#39;m looking forward to furthering our communication!
         </p>
       </>
     );
