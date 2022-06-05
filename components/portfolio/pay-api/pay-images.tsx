@@ -4,7 +4,7 @@ import React from 'react';
 const PayImages = () => {
   return (
     <>
-      <div className='absolute w-[13em] -top-14 -left-[2%] md:w-[75%] md:top-0 md:left-0'>
+      <div className='absolute w-[13em] -top-14 -left-[0%] md:w-[75%] md:top-0 md:left-0'>
         <Image
           src='/assets/pay-pics/pay-desktop-form.png'
           layout='responsive'

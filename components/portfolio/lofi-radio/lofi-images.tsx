@@ -4,7 +4,7 @@ import React from 'react';
 const LofiImages = () => {
   return (
     <>
-      <div className='absolute w-[14em] -top-16 left-[0em] md:w-[60%] md:left-0 md:top-0'>
+      <div className='absolute w-[15em] -top-16 left-[0em] md:w-[50%] md:left-0 md:top-0'>
         <Image
           src='/assets/lofi-pics/lofi-main-desktop.png'
           layout='responsive'
@@ -15,7 +15,7 @@ const LofiImages = () => {
         />
       </div>
 
-      <div className='absolute md:w-[40%] left-[30%] top-[5%]'>
+      <div className='absolute md:w-[30%] left-[38%] top-[5%]'>
         <Image
           src='/assets/lofi-pics/lofi-main-tablet.png'
           layout='responsive'
@@ -26,7 +26,7 @@ const LofiImages = () => {
         />
       </div>
 
-      <div className='absolute md:w-[22%] left-[58%] top-[13%]'>
+      <div className='absolute md:w-[17%] left-[60%] top-[10%]'>
         <Image
           src='/assets/lofi-pics/lofi-main-mobile.png'
           layout='responsive'
@@ -37,7 +37,7 @@ const LofiImages = () => {
         />
       </div>
 
-      <div className='absolute md:w-[68%] left-0 top-[75%]'>
+      <div className='absolute md:w-[68%] left-0 top-[70%]'>
         <Image
           src='/assets/lofi-pics/lofi-player-desktop.png'
           layout='responsive'
@@ -48,7 +48,7 @@ const LofiImages = () => {
         />
       </div>
 
-      <div className='absolute w-[5em] left-[67%] -top-[1em] md:w-[22%] md:left-[60%] md:top-[90%]'>
+      <div className='absolute w-[5.5em] left-[70%] -top-[1em] md:w-[22%] md:left-[60%] md:top-[80%]'>
         <Image
           src='/assets/lofi-pics/lofi-player-mobile.png'
           layout='responsive'

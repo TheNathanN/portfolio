@@ -19,7 +19,7 @@ const PomodoroTimer = () => {
         href={pomodoroInfo.liveLink}
         target='_blank'
         rel='noreferrer'
-        className='w-5/12 md:relative cursor-pointer'
+        className='w-6/12 md:relative cursor-pointer'
       >
         <PomodoroImages />
       </a>

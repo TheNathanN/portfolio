@@ -15,7 +15,7 @@ const CryptoImages = () => {
         />
       </div>
 
-      <div className='absolute w-[14em] -top-[1.9em] left-[.5em] md:w-[60%] md:top-[10%] md:left-[38%]'>
+      <div className='absolute w-[15em] -top-[3em] left-[0em] md:w-[60%] md:top-[10%] md:left-[38%]'>
         <Image
           src='/assets/crypto-pics/crypto-main-desktop.png'
           layout='responsive'
@@ -37,7 +37,7 @@ const CryptoImages = () => {
         />
       </div>
 
-      <div className='absolute left-[69%] w-[5em] -top-2 md:left-[44%] md:w-[17%] md:top-[60%]'>
+      <div className='absolute left-[72%] w-[5.5em] -top-8 md:left-[44%] md:w-[17%] md:top-[60%]'>
         <Image
           src='/assets/crypto-pics/crypto-chart-mobile.png'
           layout='responsive'
