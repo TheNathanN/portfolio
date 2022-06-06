@@ -11,8 +11,15 @@ const TechSVG = ({ inView }: Props) => {
   useEffect(() => {
     if (inView) {
       animation.start({
-        rotate: -15,
-        transition: { duration: 1.3, delay: 0.5 },
+        rotate: -13,
+        transition: { duration: 1.3, delay: 0.25 },
+      });
+    }
+
+    if (!inView) {
+      animation.start({
+        rotate: 0,
+        transition: { duration: 1 },
       });
     }
   }, [inView, animation]);

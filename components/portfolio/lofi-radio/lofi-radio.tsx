@@ -36,7 +36,7 @@ const LofiRadio = () => {
       <motion.div
         initial={{ opacity: 0, x: 500 }}
         animate={animation}
-        className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:mb-52 md:justify-between md:flex-row lg:mb-64'
+        className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:mb-60 md:justify-between md:flex-row lg:mb-72'
       >
         <a
           href={lofiRadioInfo.liveLink}

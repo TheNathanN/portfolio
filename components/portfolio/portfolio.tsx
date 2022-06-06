@@ -41,7 +41,7 @@ const Portfolio = () => {
         <motion.div
           initial={{ opacity: 0, x: -500 }}
           animate={cryptoAnimation}
-          className='relative w-full flex flex-col max-w-xs mb-24 md:max-w-none md:justify-between md:flex-row lg:mb-36'
+          className='relative w-full flex flex-col max-w-xs mb-24 md:max-w-none md:justify-between md:flex-row md:mb-28'
         >
           <CryptoTracker />
         </motion.div>
