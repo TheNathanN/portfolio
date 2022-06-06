@@ -25,7 +25,7 @@ const Portfolio = () => {
         transition: { duration: 1.3, ease: 'easeOut' },
       });
     }
-  }, [inView]);
+  }, [inView, headerAnimation, cryptoAnimation]);
 
   return (
     <>

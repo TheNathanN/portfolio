@@ -25,7 +25,7 @@ const Contact = () => {
         transition: { duration: 1.3 },
       });
     }
-  }, [inView]);
+  }, [inView, headerAnimation, formAnimation]);
 
   if (state.succeeded) {
     return (

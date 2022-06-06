@@ -15,7 +15,7 @@ const TechSVG = ({ inView }: Props) => {
         transition: { duration: 1.3, delay: 0.5 },
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <svg

@@ -25,7 +25,7 @@ const Tech = () => {
         transition: { duration: 1.3 },
       });
     }
-  }, [inView]);
+  }, [inView, svgAnimation, listAnimation]);
 
   return (
     <>

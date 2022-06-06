@@ -29,7 +29,7 @@ const PayApi = () => {
         transition: { duration: 1.3, ease: 'easeOut' },
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <div ref={ref}>
