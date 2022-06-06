@@ -65,7 +65,7 @@ const Contact = () => {
       </motion.h2>
 
       <motion.form
-        initial={{ opacity: 0, y: '100vh' }}
+        initial={{ opacity: 0, y: 50 }}
         animate={formAnimation}
         onSubmit={handleSubmit}
         className='relative flex flex-col w-11/12 max-w-xl text-base lg:text-xl'

@@ -21,6 +21,24 @@ const bodyVariant = {
   visible: { x: 0, transition: { ease: 'easeOut', duration: 1.3 } },
 };
 
+const headVariant = {
+  hidden: { x: 500, rotate: 0 },
+  visible: {
+    x: 0,
+    rotate: [6, -5, 6],
+    transition: {
+      ease: 'easeOut',
+      duration: 1.3,
+      rotate: {
+        repeat: Infinity,
+        duration: 4.5,
+        delay: 1.3,
+        ease: 'easeInOut',
+      },
+    },
+  },
+};
+
 const ManSitting = () => {
   return (
     <svg
@@ -200,10 +218,11 @@ const ManSitting = () => {
           />
         </motion.g>
         <motion.g
-          variants={bodyVariant}
+          variants={headVariant}
           initial='hidden'
           animate='visible'
           id='head'
+          style={{ originY: 1 }}
         >
           <path
             id='Vector'

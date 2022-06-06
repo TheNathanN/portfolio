@@ -20,9 +20,14 @@ const Hero = () => {
         </p>
       </motion.div>
 
-      <div className='w-full absolute bottom-0 max-w-7xl'>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.3, ease: 'easeOut' }}
+        className='w-full absolute bottom-0 max-w-7xl'
+      >
         <ManSitting />
-      </div>
+      </motion.div>
     </>
   );
 };

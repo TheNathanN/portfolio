@@ -11,18 +11,18 @@ const Portfolio = () => {
   const cryptoAnimation = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.3,
+    threshold: 0.2,
   });
   useEffect(() => {
     if (inView) {
       headerAnimation.start({
         opacity: 1,
-        transition: { duration: 1.3 },
+        transition: { duration: 1.3, ease: 'easeOut' },
       });
       cryptoAnimation.start({
         opacity: 1,
         x: 0,
-        transition: { duration: 1.3 },
+        transition: { duration: 1.3, ease: 'easeOut' },
       });
     }
   }, [inView]);
@@ -39,7 +39,7 @@ const Portfolio = () => {
 
       <div ref={ref}>
         <motion.div
-          initial={{ opacity: 0, x: '-100vw' }}
+          initial={{ opacity: 0, x: -500 }}
           animate={cryptoAnimation}
           className='relative w-full flex flex-col max-w-xs mb-24 md:max-w-none md:justify-between md:flex-row lg:mb-36'
         >

@@ -18,7 +18,7 @@ const LofiRadio = () => {
   const animation = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.3,
+    threshold: 0.2,
   });
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const LofiRadio = () => {
       animation.start({
         opacity: 1,
         x: 0,
-        transition: { duration: 1.3 },
+        transition: { duration: 1.3, ease: 'easeOut' },
       });
     }
   }, [inView]);
@@ -34,7 +34,7 @@ const LofiRadio = () => {
   return (
     <div ref={ref}>
       <motion.div
-        initial={{ opacity: 0, x: '100vw' }}
+        initial={{ opacity: 0, x: 500 }}
         animate={animation}
         className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:mb-52 md:justify-between md:flex-row lg:mb-64'
       >

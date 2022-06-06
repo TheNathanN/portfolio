@@ -48,7 +48,7 @@ const Tech = () => {
         animate={svgAnimation}
         className='flex absolute w-full bottom-0'
       >
-        <TechSVG />
+        <TechSVG inView={inView} />
       </motion.div>
     </>
   );

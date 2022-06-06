@@ -1,6 +1,22 @@
-import React from 'react';
+import { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
 
-const TechSVG = () => {
+interface Props {
+  inView: boolean;
+}
+
+const TechSVG = ({ inView }: Props) => {
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        rotate: -15,
+        transition: { duration: 1.3, delay: 0.5 },
+      });
+    }
+  }, [inView]);
+
   return (
     <svg
       width='100%'
@@ -101,7 +117,12 @@ const TechSVG = () => {
             />
           </g>
         </g>
-        <g id='head'>
+        <motion.g
+          initial={{ rotate: 0 }}
+          animate={animation}
+          style={{ originY: 1 }}
+          id='head'
+        >
           <g id='head-skin'>
             <path
               id='Vector_5'
@@ -123,7 +144,7 @@ const TechSVG = () => {
               fill='black'
             />
           </g>
-        </g>
+        </motion.g>
         <g id='body'>
           <path
             id='Skin'
