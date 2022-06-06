@@ -13,7 +13,7 @@ const Nav = () => {
         <motion.a
           initial={{ x: -500, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.3 }}
+          transition={{ duration: 1.3, ease: 'easeOut' }}
           href='#hero'
           className='relative w-[40px] h-[40px] md:w-[60px] md:h-[60px]'
         >
@@ -28,7 +28,7 @@ const Nav = () => {
         <motion.ul
           initial={{ x: 500, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.3 }}
+          transition={{ duration: 1.3, ease: 'easeOut' }}
           className='flex'
         >
           {listItems.map(item => (

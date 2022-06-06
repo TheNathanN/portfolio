@@ -2,17 +2,23 @@ import { motion } from 'framer-motion';
 
 const screenVariant = {
   hidden: { scaleY: 0 },
-  visible: { scaleY: 1, transition: { delay: 1, duration: 0.8 } },
+  visible: {
+    scaleY: 1,
+    transition: { ease: 'easeIn', delay: 1.3, duration: 0.8 },
+  },
 };
 
 const blueScreenVariant = {
   hidden: { scaleX: 0 },
-  visible: { scaleX: 1, transition: { delay: 1.3, duration: 0.8 } },
+  visible: {
+    scaleX: 1,
+    transition: { ease: 'easeOut', delay: 2.1, duration: 0.8 },
+  },
 };
 
 const bodyVariant = {
   hidden: { x: 500 },
-  visible: { x: 0, transition: { duration: 1.3 } },
+  visible: { x: 0, transition: { ease: 'easeOut', duration: 1.3 } },
 };
 
 const ManSitting = () => {
