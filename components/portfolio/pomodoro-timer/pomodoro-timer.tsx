@@ -34,7 +34,7 @@ const PomodoroTimer = () => {
   return (
     <div ref={ref}>
       <motion.div
-        initial={{ opacity: 0, x: '-100vw' }}
+        initial={{ opacity: 0, x: '100vw' }}
         animate={animation}
         className='relative flex flex-col w-full max-w-xs mb-24 md:max-w-none md:mb-48 md:justify-between md:flex-row lg:mb-60'
       >
