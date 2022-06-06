@@ -45,10 +45,7 @@ const Home: NextPage = () => {
             <Portfolio />
           </section>
 
-          <section
-            id='contact'
-            className='relative w-full flex flex-col items-center md:mt-8'
-          >
+          <section id='contact' className='w-full'>
             <Contact />
           </section>
         </div>

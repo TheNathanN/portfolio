@@ -1,9 +1,31 @@
-import React from 'react';
+import { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import { useForm, ValidationError } from '@formspree/react';
 import ShadowSVG from '../svg/shadow';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('mrgjdgbg');
+  const headerAnimation = useAnimation();
+  const formAnimation = useAnimation();
+
+  const { ref, inView } = useInView({
+    threshold: 0.3,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      headerAnimation.start({
+        opacity: 1,
+        transition: { duration: 1.3 },
+      });
+      formAnimation.start({
+        opacity: 1,
+        y: 0,
+        transition: { duration: 1.3 },
+      });
+    }
+  }, [inView]);
 
   if (state.succeeded) {
     return (
@@ -26,16 +48,25 @@ const Contact = () => {
   }
 
   return (
-    <>
+    <div
+      ref={ref}
+      className='relative w-full flex flex-col items-center md:mt-8'
+    >
       <div className='w-full h-full absolute top-0'>
         <ShadowSVG />
       </div>
 
-      <h2 className='font-bold text-center relative text-5xl mt-24 mb-11 lg:text-6xl lg:mb-20'>
+      <motion.h2
+        initial={{ opacity: 0 }}
+        animate={headerAnimation}
+        className='font-bold text-center relative text-5xl mt-24 mb-11 lg:text-6xl lg:mb-20'
+      >
         Contact
-      </h2>
+      </motion.h2>
 
-      <form
+      <motion.form
+        initial={{ opacity: 0, y: '100vh' }}
+        animate={formAnimation}
         onSubmit={handleSubmit}
         className='relative flex flex-col w-11/12 max-w-xl text-base lg:text-xl'
       >
@@ -83,8 +114,8 @@ const Contact = () => {
         >
           Submit
         </button>
-      </form>
-    </>
+      </motion.form>
+    </div>
   );
 };
 

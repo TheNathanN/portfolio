@@ -1,4 +1,3 @@
-import React from 'react';
 import { createListFromArray } from '../../../helpers/helperFunctions';
 import { _CryptoTrackerLabels } from '../../../helpers/helperVariables';
 import { ProjectInfo } from '../../../helpers/types';

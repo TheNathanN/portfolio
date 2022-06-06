@@ -25,18 +25,6 @@ const Tech = () => {
         transition: { duration: 1.3 },
       });
     }
-
-    if (!inView) {
-      svgAnimation.start({
-        opacity: 0,
-        transition: { duration: 1.3 },
-      });
-      listAnimation.start({
-        opacity: 0,
-        x: 500,
-        transition: { duration: 1.3 },
-      });
-    }
   }, [inView]);
 
   return (
