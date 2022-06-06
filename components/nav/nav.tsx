@@ -1,5 +1,5 @@
-import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 import { createListFromArray } from '../../helpers/helperFunctions';
 import { _NavItems } from '../../helpers/helperVariables';
 import { ListItem } from '../../helpers/types';
@@ -10,7 +10,10 @@ const Nav = () => {
   return (
     <nav className='flex justify-center pr-5 pl-5 md:pr-10 md:pl-8 py-1 fixed w-full top-0 bg-darkBlue bg-opacity-80 z-50'>
       <div className='max-w-7xl w-full flex items-center justify-between text-white'>
-        <a
+        <motion.a
+          initial={{ x: -500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
           href='#hero'
           className='relative w-[40px] h-[40px] md:w-[60px] md:h-[60px]'
         >
@@ -21,8 +24,13 @@ const Nav = () => {
             className='cursor-pointer'
             alt='Nathan Nicholson logo'
           />
-        </a>
-        <ul className='flex'>
+        </motion.a>
+        <motion.ul
+          initial={{ x: 500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          className='flex'
+        >
           {listItems.map(item => (
             <li
               key={item.id}
@@ -31,7 +39,7 @@ const Nav = () => {
               <a href={item.link}>{item.label}</a>
             </li>
           ))}
-        </ul>
+        </motion.ul>
       </div>
     </nav>
   );

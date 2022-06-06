@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
       <Nav />
 
-      <div className='min-w-screen min-h-screen bg-gradient-radial from-black to-blue flex justify-center'>
+      <div className='overflow-hidden min-w-screen min-h-screen bg-gradient-radial from-black to-blue flex justify-center'>
         <div className='min-w-screen min-h-screen max-w-7xl w-full flex flex-col items-center justify-center text-white'>
           <header
             id='hero'
