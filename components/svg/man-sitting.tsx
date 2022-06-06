@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const screenVariant = {
   hidden: { scaleY: 0 },
-  visible: { scaleY: 1, transition: { delay: 0.8, duration: 0.5 } },
+  visible: { scaleY: 1, transition: { delay: 1, duration: 0.8 } },
 };
 
 const blueScreenVariant = {
@@ -12,7 +12,7 @@ const blueScreenVariant = {
 
 const bodyVariant = {
   hidden: { x: 500 },
-  visible: { x: 0, transition: { duration: 1 } },
+  visible: { x: 0, transition: { duration: 1.3 } },
 };
 
 const ManSitting = () => {
