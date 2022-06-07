@@ -13,25 +13,29 @@ Hi, my name is Nathan Nicholson, and this is a one-page website I created to sho
 
 ## Run Locally
 
-Clone the project
+### 1. Go to the top-right corner of the page and click Fork
+
+![Fork Screenshot](https://docs.github.com/assets/cb-28613/images/help/repository/fork_button.png)
+
+### 2. Clone the project
 
 ```bash
-  git clone https://github.com/Your-Fork-Url-Here
+  git clone https://github.com//YOUR-USERNAME/portfolio
 ```
 
-Go to the project directory
+### 3. Go to the project directory
 
 ```bash
-  cd your-project-name
+  cd portfolio
 ```
 
-Install dependencies
+### 4. Install dependencies
 
 ```bash
   yarn install
 ```
 
-Start the server
+### 5. Start the server
 
 ```bash
   yarn dev
