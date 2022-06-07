@@ -14,7 +14,7 @@ const CryptoTracker = () => {
 
   return (
     <>
-      <div className='w-full flex flex-col items-center md:block md:w-1/2'>
+      <div className='w-full flex flex-col items-start md:block md:w-1/2'>
         <ProjectDetails projectInfo={cryptoTrackerInfo} />
       </div>
 
