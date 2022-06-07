@@ -51,8 +51,16 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <footer className='bg-black w-full text-white flex justify-center items-center h-56 text-base md:text-lg'>
+      <footer className='bg-black w-full text-white flex flex-col justify-center items-center h-56 text-base md:text-lg'>
         Designed and Programmed by Nathan Nicholson
+        <a
+          href='https://www.linkedin.com/in/the-nathan-nicholson/'
+          target='_blank'
+          rel='noreferrer'
+          className='text-4xl mt-1 z-20 cursor-pointer hover:text-lightBlue transition-all duration-100'
+        >
+          <i className='fa-brands fa-linkedin'></i>
+        </a>
       </footer>
     </div>
   );
