@@ -1,23 +1,38 @@
-# Next.js + Tailwind CSS Example
+# My Portfolio Website v.1
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Hi, my name is Nathan Nicholson, and this is a one-page website I created to show off some of my work and skills. I'm a certified web developer that has a passion for learning and loves creating enjoyable experiences on the web; I hope you enjoy the portfolio and feel free to fork the code to use however you want.
 
-## Deploy your own
+## Tech Used
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- Next JS
+- Tailwind CSS
+- Framer Motion
+- Typescript
+- Formspree
+- Deployed with Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Run Locally
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Clone the project
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+  git clone https://github.com/Your-Fork-Url-Here
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Go to the project directory
+
+```bash
+  cd your-project-name
+```
+
+Install dependencies
+
+```bash
+  yarn install
+```
+
+Start the server
+
+```bash
+  yarn dev
+```

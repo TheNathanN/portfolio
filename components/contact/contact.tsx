@@ -6,8 +6,7 @@ import ShadowSVG from '../svg/shadow';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('mrgjdgbg');
-  const headerAnimation = useAnimation();
-  const formAnimation = useAnimation();
+  const animation = useAnimation();
 
   const { ref, inView } = useInView({
     threshold: 0.3,
@@ -15,17 +14,13 @@ const Contact = () => {
 
   useEffect(() => {
     if (inView) {
-      headerAnimation.start({
-        opacity: 1,
-        transition: { duration: 1.3 },
-      });
-      formAnimation.start({
+      animation.start({
         opacity: 1,
         y: 0,
         transition: { duration: 1.3 },
       });
     }
-  }, [inView, headerAnimation, formAnimation]);
+  }, [inView, animation]);
 
   if (state.succeeded) {
     return (
@@ -57,16 +52,16 @@ const Contact = () => {
       </div>
 
       <motion.h2
-        initial={{ opacity: 0 }}
-        animate={headerAnimation}
+        initial={{ opacity: 0, y: 100 }}
+        animate={animation}
         className='font-bold text-center relative text-5xl mt-24 mb-11 lg:text-6xl lg:mb-20'
       >
         Contact
       </motion.h2>
 
       <motion.form
-        initial={{ opacity: 0, y: 50 }}
-        animate={formAnimation}
+        initial={{ opacity: 0, y: 100 }}
+        animate={animation}
         onSubmit={handleSubmit}
         className='relative flex flex-col w-11/12 max-w-xl text-base lg:text-xl'
       >
