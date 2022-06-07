@@ -18,7 +18,7 @@ const PayApi = () => {
   const animation = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.25,
   });
 
   useEffect(() => {
@@ -32,13 +32,13 @@ const PayApi = () => {
   }, [inView, animation]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className='flex w-full justify-center'>
       <motion.div
         initial={{ opacity: 0, x: -500 }}
         animate={animation}
         className='relative flex flex-col w-full max-w-xs mb-24 md:max-w-none md:mb-36 md:justify-between md:flex-row'
       >
-        <div className='flex flex-col items-center md:block md:w-6/12'>
+        <div className='flex flex-col items-start md:block md:w-6/12'>
           <ProjectDetails projectInfo={payApiInfo} />
         </div>
 

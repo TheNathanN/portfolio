@@ -11,7 +11,7 @@ const Portfolio = () => {
   const cryptoAnimation = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.25,
   });
   useEffect(() => {
     if (inView) {
@@ -47,15 +47,15 @@ const Portfolio = () => {
         </motion.div>
       </div>
 
-      <div>
+      <div className='w-full'>
         <LofiRadio />
       </div>
 
-      <div>
+      <div className='w-full'>
         <PayApi />
       </div>
 
-      <div>
+      <div className='w-full'>
         <PomodoroTimer />
       </div>
     </>

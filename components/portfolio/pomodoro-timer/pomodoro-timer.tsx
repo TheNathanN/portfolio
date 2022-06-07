@@ -18,7 +18,7 @@ const PomodoroTimer = () => {
   const animation = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.25,
   });
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const PomodoroTimer = () => {
   }, [inView, animation]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className='flex w-full justify-center'>
       <motion.div
         initial={{ opacity: 0, x: 500 }}
         animate={animation}
@@ -47,7 +47,7 @@ const PomodoroTimer = () => {
           <PomodoroImages />
         </a>
 
-        <div className='flex flex-col items-center md:block md:w-5/12'>
+        <div className='flex flex-col items-start md:block md:w-5/12'>
           <ProjectDetails projectInfo={pomodoroInfo} />
         </div>
       </motion.div>

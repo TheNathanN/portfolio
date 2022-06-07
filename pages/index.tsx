@@ -40,7 +40,7 @@ const Home: NextPage = () => {
 
           <section
             id='portfolio'
-            className='w-full flex flex-col items-center px-12 md:block lg:px-16'
+            className='w-full flex flex-col items-center justify-center px-12 md:block lg:px-16'
           >
             <Portfolio />
           </section>

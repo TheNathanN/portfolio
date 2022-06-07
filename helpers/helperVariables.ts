@@ -23,6 +23,7 @@ export const _TechLabels = [
   'Next JS',
   'Node JS',
   'MySQL',
+  'Jest Testing',
 ];
 
 export const _CryptoTrackerLabels = [
@@ -32,16 +33,14 @@ export const _CryptoTrackerLabels = [
   'Context API',
   'Coinranking API',
   'Bing API',
-  'Custom Next JS Proxy Server for API Requests',
-  'Designed and Programmed by Nathan',
+  'Next JS Proxy Server for API Requests',
 ];
 
 export const _LofiRadioLabels = [
   'HTML / SCSS',
   'Next JS',
   'Context API',
-  'Albums stored in a Javascript file to mimic a Database',
-  'Designed and Programmed by Nathan',
+  'Framer Motion',
 ];
 
 export const _PayApiLabels = [
@@ -51,8 +50,6 @@ export const _PayApiLabels = [
   'Redux',
   'Express JS',
   'MySQL',
-  'Forms send data to a MySQL Database',
-  'Programmed by Nathan | Designed by Frontend Mentor',
 ];
 
 export const _PomodoroLabels = [
@@ -60,5 +57,4 @@ export const _PomodoroLabels = [
   'Typescript',
   'Next JS',
   'Context API',
-  'Programmed by Nathan | Designed by Frontend Mentor',
 ];

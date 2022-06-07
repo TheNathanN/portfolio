@@ -18,7 +18,7 @@ const LofiRadio = () => {
   const animation = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.25,
   });
 
   useEffect(() => {
@@ -32,11 +32,11 @@ const LofiRadio = () => {
   }, [inView, animation]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className='flex w-full justify-center'>
       <motion.div
         initial={{ opacity: 0, x: 500 }}
         animate={animation}
-        className='relative flex flex-col max-w-xs mb-24 md:max-w-none md:mb-60 md:justify-between md:flex-row lg:mb-72'
+        className='relative flex flex-col w-full max-w-xs mb-24 md:max-w-none md:mb-60 md:justify-between md:flex-row lg:mb-72'
       >
         <a
           href={lofiRadioInfo.liveLink}
@@ -47,7 +47,7 @@ const LofiRadio = () => {
           <LofiImages />
         </a>
 
-        <div className='w-full flex flex-col items-center md:block md:w-5/12'>
+        <div className='w-full flex flex-col items-start md:items-center md:block md:w-5/12'>
           <ProjectDetails projectInfo={lofiRadioInfo} />
         </div>
       </motion.div>

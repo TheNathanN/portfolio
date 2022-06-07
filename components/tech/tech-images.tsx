@@ -4,7 +4,7 @@ import Image from 'next/image';
 const TechImages = () => {
   return (
     <>
-      <div className='relative w-[50px] h-[50px] mb-7 mt-10 lg:w-[60px] lg:h-[60px] lg:mb-8 lg:mt-14'>
+      <div className='relative w-[50px] h-[50px] mb-7 mt-14 lg:w-[60px] lg:h-[60px] lg:mb-8 lg:mt-20'>
         <Image
           src='/assets/typescript-logo.png'
           layout='fill'

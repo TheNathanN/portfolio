@@ -15,8 +15,9 @@ const Hero = () => {
           <br /> Nicholson
         </h1>
         <p className='font-light leading-relaxed text-xl lg:text-2xl'>
-          A certified web developer, who has an eye for design, loves to learn,
-          and loves to create enjoyable experiences on the internet!
+          A certified web developer, who has an eye for design, enjoys the
+          learning process, and loves to create enjoyable experiences on the
+          internet!
         </p>
       </motion.div>
 
