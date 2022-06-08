@@ -11,6 +11,7 @@ const PomodoroImages = () => {
           width='90vw'
           height='70vh'
           alt='pomodoro menu for desktop'
+          priority
         />
       </div>
 
@@ -21,6 +22,7 @@ const PomodoroImages = () => {
           width='100vw'
           height='68vh'
           alt='pomodoro main page for desktop'
+          priority
         />
       </div>
 
@@ -31,6 +33,7 @@ const PomodoroImages = () => {
           width='46vw'
           height='95vh'
           alt='pomodoro main page for mobile'
+          priority
         />
       </div>
 
@@ -41,6 +44,7 @@ const PomodoroImages = () => {
           width='46vw'
           height='95vh'
           alt='pomodoro menu for mobile'
+          priority
         />
       </div>
     </>
