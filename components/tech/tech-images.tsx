@@ -4,7 +4,7 @@ import Image from 'next/image';
 const TechImages = () => {
   return (
     <>
-      <div className='relative w-[50px] h-[50px] mb-7 mt-14 lg:w-[60px] lg:h-[60px] lg:mb-8 lg:mt-20'>
+      <div className='relative w-[50px] h-[50px] lg:w-[60px] lg:h-[60px]'>
         <Image
           src='/assets/typescript-logo.png'
           layout='fill'
@@ -14,7 +14,7 @@ const TechImages = () => {
         />
       </div>
 
-      <div className='relative w-[55px] h-[50px] mb-7 lg:w-[65px] lg:h-[60px] lg:mb-8'>
+      <div className='relative w-[55px] h-[50px] lg:w-[65px] lg:h-[60px]'>
         <Image
           src='/assets/react-logo.png'
           layout='fill'

@@ -9,7 +9,9 @@ const TechList = () => {
 
   return (
     <>
-      <h2 className='font-bold text-5xl mb-12 lg:text-6xl'>Technologies</h2>
+      <h2 className='font-bold text-5xl mb-8 lg:text-6xl lg:mb-12'>
+        Technologies
+      </h2>
 
       <div className='relative z-10 flex pl-2'>
         <ul>
@@ -23,7 +25,7 @@ const TechList = () => {
           ))}
         </ul>
 
-        <div className='flex flex-col ml-20 lg:ml-28 items-center'>
+        <div className='flex flex-col ml-20 lg:ml-28 items-center justify-around'>
           <TechImages />
         </div>
       </div>
