@@ -9,9 +9,7 @@ const TechList = () => {
 
   return (
     <>
-      <h2 className='font-bold text-5xl mb-8 lg:text-6xl lg:mb-12'>
-        Technologies
-      </h2>
+      <h2 className='font-bold text-5xl mb-10 lg:text-6xl'>Technologies</h2>
 
       <div className='relative z-10 flex pl-2'>
         <ul>
