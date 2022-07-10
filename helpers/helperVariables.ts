@@ -18,7 +18,7 @@ export const _TechLabels = [
   "CSS / SCSS",
   "Tailwind CSS",
   "Framer Motion",
-  "Typescript",
+  "TypeScript",
   "React / Redux",
   "Next.js",
   "Node.js",
@@ -43,9 +43,17 @@ export const _LofiRadioLabels = [
   "Framer Motion",
 ];
 
+export const _MessageMeLabels = [
+  "HTML / Tailwind CSS",
+  "TypeScript",
+  "Next.js",
+  "Redux",
+  "Firebase(Auth & Database)",
+];
+
 export const _PayApiLabels = [
   "HTML / Tailwind CSS",
-  "Typescript",
+  "TypeScript",
   "React.js",
   "Redux",
   "Express.js",
@@ -54,7 +62,7 @@ export const _PayApiLabels = [
 
 export const _PomodoroLabels = [
   "HTML / SCSS",
-  "Typescript",
+  "TypeScript",
   "Next.js",
   "Context API",
 ];
