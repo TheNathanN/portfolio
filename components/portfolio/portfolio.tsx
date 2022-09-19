@@ -44,7 +44,7 @@ const Portfolio = () => {
           animate={cryptoAnimation}
           className="relative w-full flex flex-col max-w-xs mb-24 md:max-w-none md:justify-between md:flex-row md:mb-28"
         >
-          <CryptoTracker />
+          <PayApi />
         </motion.div>
       </div>
 
@@ -53,7 +53,7 @@ const Portfolio = () => {
       </div>
 
       <div className="w-full">
-        <PayApi />
+        <CryptoTracker />
       </div>
 
       <div className="w-full">
