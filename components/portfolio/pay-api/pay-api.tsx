@@ -19,38 +19,39 @@ const PayApi = () => {
     threshold: 0.25,
   });
 
-  const cryptoAnimation = useAnimation();
+  const payAnimation = useAnimation();
 
   useEffect(() => {
     if (inView) {
-      cryptoAnimation.start({
+      payAnimation.start({
         opacity: 1,
         x: 0,
         transition: { duration: 1.3, ease: "easeOut" },
       });
     }
-  }, [cryptoAnimation, inView]);
+  }, [payAnimation, inView]);
 
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, x: -500 }}
-      animate={cryptoAnimation}
-      className="relative w-full flex flex-col max-w-xs mb-24 md:max-w-none md:justify-between md:flex-row md:mb-36"
-    >
-      <div className="flex flex-col items-start md:block md:w-6/12">
-        <ProjectDetails projectInfo={payApiInfo} />
-      </div>
-
-      <a
-        href={payApiInfo.liveLink}
-        target="_blank"
-        rel="noreferrer"
-        className="w-5/12 md:relative cursor-pointer"
+    <div ref={ref} className="flex w-full justify-center">
+      <motion.div
+        initial={{ opacity: 0, x: -500 }}
+        animate={payAnimation}
+        className="relative flex flex-col w-full max-w-xs mb-24 md:max-w-none md:mb-36 md:justify-between md:flex-row"
       >
-        <PayImages />
-      </a>
-    </motion.div>
+        <div className="flex flex-col items-start md:block md:w-6/12">
+          <ProjectDetails projectInfo={payApiInfo} />
+        </div>
+
+        <a
+          href={payApiInfo.liveLink}
+          target="_blank"
+          rel="noreferrer"
+          className="w-5/12 md:relative cursor-pointer"
+        >
+          <PayImages />
+        </a>
+      </motion.div>
+    </div>
   );
 };
 
