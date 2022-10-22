@@ -26,6 +26,23 @@ export const _TechLabels = [
   "Jest Testing",
 ];
 
+export const _OtguLabels = [
+  "HTML / Tailwind CSS",
+  "TypeScript",
+  "Next.js",
+  "Context API",
+  "MySQL",
+];
+
+export const _PayApiLabels = [
+  "HTML / Tailwind CSS",
+  "TypeScript",
+  "React.js",
+  "Redux",
+  "Express.js",
+  "MySQL",
+];
+
 export const _CryptoTrackerLabels = [
   "HTML / SCSS",
   "Next.js",
@@ -49,15 +66,6 @@ export const _MessageMeLabels = [
   "Next.js",
   "Redux",
   "Firebase(Auth & Database)",
-];
-
-export const _PayApiLabels = [
-  "HTML / Tailwind CSS",
-  "TypeScript",
-  "React.js",
-  "Redux",
-  "Express.js",
-  "MySQL",
 ];
 
 export const _PomodoroLabels = [
