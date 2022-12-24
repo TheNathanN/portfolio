@@ -36,7 +36,7 @@ const Portfolio = () => {
       </motion.h2>
 
       <div className="w-full">
-        <OtguWebsite />
+        <LofiRadio />
       </div>
 
       <div className="w-full">
@@ -44,7 +44,7 @@ const Portfolio = () => {
       </div>
 
       <div className="w-full">
-        <LofiRadio />
+        <OtguWebsite />
       </div>
 
       <div className="w-full">
