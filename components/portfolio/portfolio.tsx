@@ -1,28 +1,24 @@
-import { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import CryptoTracker from "./crypto-tracker/crypto-tracker";
-import LofiRadio from "./lofi-radio/lofi-radio";
-import PayApi from "./pay-api/pay-api";
-import PomodoroTimer from "./pomodoro-timer/pomodoro-timer";
-import MessageMe from "./message-me/message-me";
-import OtguWebsite from "./otgu-website/otgu-website";
+import { useEffect } from "react"
+import { motion, useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
+import { projectsData } from "../../data/projectsData"
+import SlideIn from "./slide-in/slide-in"
 
 const Portfolio = () => {
-  const headerAnimation = useAnimation();
+  const headerAnimation = useAnimation()
 
   const [ref, inView] = useInView({
     threshold: 0.25,
-  });
+  })
 
   useEffect(() => {
     if (inView) {
       headerAnimation.start({
         opacity: 1,
         transition: { duration: 1.3, ease: "easeOut" },
-      });
+      })
     }
-  }, [inView, headerAnimation]);
+  }, [inView, headerAnimation])
 
   return (
     <>
@@ -35,31 +31,18 @@ const Portfolio = () => {
         Portfolio
       </motion.h2>
 
-      <div className="w-full">
-        <LofiRadio />
-      </div>
-
-      <div className="w-full">
-        <PayApi />
-      </div>
-
-      <div className="w-full">
-        <OtguWebsite />
-      </div>
-
-      <div className="w-full">
-        <CryptoTracker />
-      </div>
-
-      <div className="w-full">
-        <MessageMe />
-      </div>
-
-      <div className="w-full">
-        <PomodoroTimer />
-      </div>
+      {projectsData.map((projectData, indx) => {
+        const direction = indx % 2 === 0 ? "left" : "right"
+        return (
+          <SlideIn
+            projectData={projectData}
+            direction={direction}
+            key={projectData.name}
+          />
+        )
+      })}
     </>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
