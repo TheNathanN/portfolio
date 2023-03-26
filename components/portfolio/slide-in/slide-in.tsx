@@ -1,7 +1,6 @@
 import { useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import { createListFromArray } from "../../../helpers/helperFunctions"
 import { _LofiRadioLabels } from "../../../helpers/helperVariables"
 import { ProjectInfo } from "../../../helpers/types"
 import ProjectDetails from "../project-details"
