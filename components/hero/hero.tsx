@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import Image from "next/image";
-import ManSitting from "../svg/man-sitting";
+import { motion } from "framer-motion"
+import Image from "next/image"
+import ManSitting from "../svg/man-sitting"
 
 const Hero = () => {
   return (
@@ -16,8 +16,8 @@ const Hero = () => {
           <br /> Nicholson
         </h1>
         <p className="font-light leading-relaxed text-xl lg:text-2xl">
-          A web developer who enjoys working with a variety of web technologies;
-          and loves creating enjoyable experiences on the internet!
+          A web developer who loves creating enjoyable experiences on the
+          internet!
         </p>
       </motion.div>
 
@@ -30,7 +30,7 @@ const Hero = () => {
         <ManSitting />
       </motion.div>
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
