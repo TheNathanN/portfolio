@@ -31,13 +31,13 @@ const payApiInfo: ProjectInfo = {
   imageComponent: PayImages(),
 }
 
-const otguInfo: ProjectInfo = {
-  name: "OTGU Website",
-  details: createListFromArray(_OtguLabels),
-  liveLink: "https://otgu.xyz/",
-  repoLink: "https://github.com/otgumedia/otgu-website",
-  imageComponent: OtguImages(),
-}
+// const otguInfo: ProjectInfo = {
+//   name: "OTGU Website",
+//   details: createListFromArray(_OtguLabels),
+//   liveLink: "https://otgu.xyz/",
+//   repoLink: "https://github.com/otgumedia/otgu-website",
+//   imageComponent: OtguImages(),
+// }
 
 const cryptoTrackerInfo: ProjectInfo = {
   name: "Crypto Tracker",
@@ -66,7 +66,7 @@ const pomodoroInfo: ProjectInfo = {
 export const projectsData = [
   lofiRadioInfo,
   payApiInfo,
-  otguInfo,
+  // otguInfo,
   cryptoTrackerInfo,
   messageInfo,
   pomodoroInfo,
