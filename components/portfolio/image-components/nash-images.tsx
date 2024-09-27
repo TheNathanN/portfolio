@@ -26,33 +26,33 @@ const NashImages = () => {
         />
       </div>
 
-      <div className="absolute md:w-[19%] top-[80%] left-[5%]">
+      <div className="absolute md:w-[18%] top-[80%] left-[5%]">
         <Image
           src="/assets/nash-pics/nash-main-mobile.png"
           layout="responsive"
-          width="45vw"
+          width="43vw"
           height="100vh"
           priority
           alt="directedbynash.com for mobile"
         />
       </div>
 
-      <div className="absolute md:w-[19%] top-[80%] left-[38%]">
+      <div className="absolute md:w-[18%] top-[80%] left-[38%]">
         <Image
           src="/assets/nash-pics/nash-mobile.png"
           layout="responsive"
-          width="45vw"
+          width="43vw"
           height="100vh"
           priority
           alt="directedbynash.com for mobile"
         />
       </div>
 
-      <div className="absolute md:w-[19%] top-[80%] left-[72%]">
+      <div className="absolute md:w-[18%] top-[80%] left-[72%]">
         <Image
           src="/assets/nash-pics/nash-nav-mobile.png"
           layout="responsive"
-          width="45vw"
+          width="43vw"
           height="100vh"
           priority
           alt="directedbynash.com for mobile"

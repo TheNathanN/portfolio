@@ -19,7 +19,7 @@ const LofiImages = () => {
         <Image
           src="/assets/lofi-pics/lofi-main-mobile.png"
           layout="responsive"
-          width="55vw"
+          width="54vw"
           height="100vh"
           priority
           alt="lofi radio main page for mobile"
