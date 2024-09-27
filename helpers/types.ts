@@ -8,6 +8,6 @@ export interface ProjectInfo {
   name: string
   details: ListItem[]
   liveLink: string
-  repoLink: string
+  repoLink?: string
   imageComponent: JSX.Element
 }

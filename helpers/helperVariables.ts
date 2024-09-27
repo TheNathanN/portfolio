@@ -11,7 +11,7 @@ export const _NavItems = [
     label: "Contact",
     link: "#contact",
   },
-];
+]
 
 export const _TechLabels = [
   "HTML",
@@ -24,15 +24,15 @@ export const _TechLabels = [
   "Node.js",
   "SQL",
   "Jest Testing",
-];
+]
 
-export const _OtguLabels = [
+export const _NashLabels = [
   "HTML / Tailwind CSS",
   "TypeScript",
   "Next.js",
-  "Context API",
-  "MySQL",
-];
+  "Prismic CMS",
+  "Framer Motion",
+]
 
 export const _PayApiLabels = [
   "HTML / Tailwind CSS",
@@ -41,7 +41,7 @@ export const _PayApiLabels = [
   "Redux",
   "Express.js",
   "MySQL",
-];
+]
 
 export const _CryptoTrackerLabels = [
   "HTML / SCSS",
@@ -51,14 +51,14 @@ export const _CryptoTrackerLabels = [
   "Coinranking API",
   "Bing API",
   "Next JS Proxy Server for API Requests",
-];
+]
 
 export const _LofiRadioLabels = [
   "HTML / SCSS",
   "Next.js",
   "Context API",
   "Framer Motion",
-];
+]
 
 export const _MessageMeLabels = [
   "HTML / Tailwind CSS",
@@ -66,11 +66,11 @@ export const _MessageMeLabels = [
   "Next.js",
   "Redux",
   "Firebase(Auth & Database)",
-];
+]
 
 export const _PomodoroLabels = [
   "HTML / SCSS",
   "TypeScript",
   "Next.js",
   "Context API",
-];
+]
