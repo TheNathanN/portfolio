@@ -9,7 +9,7 @@ const NashImages = () => {
           src="/assets/nash-pics/nash-desktop.png"
           layout="responsive"
           width="100vw"
-          height="57vh"
+          height="58vh"
           priority
           alt="directedbynash.com home for desktop"
         />
@@ -20,7 +20,7 @@ const NashImages = () => {
           src="/assets/nash-pics/nash-main-desktop.png"
           layout="responsive"
           width="100vw"
-          height="57vh"
+          height="58vh"
           priority
           alt="directedbynash.com for desktop"
         />
